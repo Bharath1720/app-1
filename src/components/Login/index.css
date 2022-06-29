@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login-page-bg-image {
+  background-image: url('https://res.cloudinary.com/dyx9u0bif/image/upload/v1656479274/netfilx_1_rwf0ar.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  max-width: 456px;
+  border-radius: 8px;
+  background-color: #0c0b10;
+  opacity: 0.9;
+  padding: 30px;
+}
+.login-username-container,
+.login-password-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+#username {
+  height: 40px;
+  background: #333333;
+  border-radius: 2px;
+  outline: none;
+  width: 360px;
+  border: none;
+  padding-left: 10px;
+  color: #ffffff;
+}
+#password {
+  height: 40px;
+  background: #333333;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.login-btn {
+  display: block;
+  margin: 10px 0px;
+  height: 40px;
+  background-color: #e50914;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f8fafc;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 360px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 5px 0px;
+}
+.login-name {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
