@@ -1,0 +1,53 @@
+.movie-info-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+
+  color: #ffffff;
+}
+
+.movie-info-hrs-min {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-right: 12px;
+}
+.movie-info-a-ua {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-right: 12px;
+  padding: 2px 12px;
+}
+.movie-info-overview {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.movie-info-year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.movie-info-content-container {
+  height: 501px;
+  width: 751px;
+  padding: 25px;
+}
+.runtime-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
